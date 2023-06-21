@@ -22,8 +22,17 @@ body {
 
 .header {
     grid-area: header;
+    background-color: white;
 }
 
+
+.header .header-container {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
 
 
 
