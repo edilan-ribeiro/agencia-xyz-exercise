@@ -34,7 +34,15 @@ body {
     min-height: 75px;
 }
 
+.header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
 
+.header a:hover h1 {
+    color: coral;
+}
 
 
 
