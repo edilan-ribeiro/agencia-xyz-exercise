@@ -23,7 +23,7 @@
     height: 60px;
 }
 
-.header .hamburger {
+.header .hamburguer {
     background-color: #000;
     position: relative;
     display: block;
@@ -34,8 +34,8 @@
     transition: 0.5s ease-in-out;
 }
 
-.header .hamburger:before,
-.header .hamburger:after {
+.header .hamburguer:before,
+.header .hamburguer:after {
     background-color: #000;
     content: "";
     display: block;
@@ -43,4 +43,25 @@
     height: 100%;
     position: absolute;
     transition: 0.2s ease-in-out;
+}
+
+.header .hamburguer::before {
+    top: -10px;
+}
+
+.header .hamburguer::after {
+    bottom: -10px;
+}
+
+.header input {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .header .menu {
+        display: block;
+    }
+    .header nav ul {
+        display: none;
+    }
 }
