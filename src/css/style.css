@@ -71,6 +71,7 @@ body {
     position: absolute;
     height: 35px;
     bottom: 40px;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 
 
