@@ -83,4 +83,8 @@
     .header nav ul {
         display: none;
     }
+
+    .header input:checked ~ ul {
+        display: block;
+    }
 }
