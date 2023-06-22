@@ -19,6 +19,7 @@ body {
     font-weight: 400;
 }
 
+/* HEADER  */
 
 .header {
     grid-area: header;
@@ -46,14 +47,24 @@ body {
 
 
 
-
-
-
-
+/* HERO */
 
 .hero {
     grid-area: hero;
+    height: 89vh;
+    background: url('../images/lemons.jpg') center center no-repeat;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .about {
     grid-area: about;
