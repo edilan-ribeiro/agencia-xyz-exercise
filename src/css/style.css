@@ -98,6 +98,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fff;
+    max-width: var(--max-width-size);
+    margin: 0 auto;
 }
 
 .about .item {
