@@ -280,3 +280,16 @@ background-color: lightskyblue;
     font-weight: 700;
     color: #fff;
 }
+
+.footer .social i {
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.footer .social a {
+    margin: 20px;
+}
+
+.footer .social a:hover {
+    color: #fff;
+}
