@@ -245,4 +245,9 @@ background-color: lightskyblue;
 
 .footer {
     grid-area:footer ;
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
 }
