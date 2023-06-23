@@ -251,3 +251,9 @@ background-color: lightskyblue;
     text-align: center;
     padding: 100px 0;
 }
+
+.footer h4 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
