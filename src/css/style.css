@@ -173,7 +173,6 @@ body {
 
 .services .service {
     padding: 70px 20px;
-
 }
 
 .services .service img {
@@ -201,6 +200,12 @@ background-color: lightskyblue;
 
 .services .service:nth-child(2) {
     background-color: lightpink;
+}
+
+@media (max-width: 425px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
 }
 
 
